@@ -1,0 +1,43 @@
+// https://community.bistudio.com/wiki/Arma_3_Respawn
+respawnOnStart = -1;
+
+// configuration de ace3 avec les paramètres milsim
+class ACE_Settings {
+    #include "config\ace3\medicalAdvancedAceConfig.hpp"
+}
+
+class CfgDebriefing
+{
+
+	class End1
+	{
+		title = "Victoire";
+		subtitle = "";
+		description = "Votre patrouille est terminé";
+		// pictureBackground = "";
+		// picture = "";
+		// pictureColor[] = {0.0,0.3,0.6,1};
+	};
+
+	class End2
+	{
+		title = "Défaite";
+		subtitle = "";
+		description = "Votre escouade n'est plu";
+		// pictureBackground = "";
+		// picture = "";
+		// pictureColor[] = {0.0,0.3,0.6,1};
+	};
+
+};
+
+class CfgMusic
+{
+	tracks[]={};
+
+	class Asylum
+	{
+		name = "Asylum";
+		sound[] = {"media\music\asylum.ogg", db+10, 1.0};
+	};
+};

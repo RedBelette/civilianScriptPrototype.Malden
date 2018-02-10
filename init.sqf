@@ -1,0 +1,1 @@
+hostileCount = 0;

@@ -1,0 +1,1 @@
+["hostileCount > 3", "execVM 'script\server\ia\enemy.sqf';"] call RF_fnc_action;

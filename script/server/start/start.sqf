@@ -1,0 +1,1 @@
+["script\client\start\titleAndMusic.sqf"] remoteExec ["execVM"];
